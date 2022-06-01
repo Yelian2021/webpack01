@@ -8,6 +8,17 @@ console.log(matsuA(20));
 
 //jquery
 import $ from 'jquery';
+import { gsap } from "gsap";
+
+gsap.to('.logo',{
+    duration:1,
+    x:300,
+    y:10,
+    repeat:-1,
+    yoyo:true,
+    rotation:360
+
+})
 
 import './css/style.css';  //插入style.css
 import './css/header.css';  //插入header.css
