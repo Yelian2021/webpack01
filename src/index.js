@@ -9,7 +9,11 @@ console.log(matsuA(20));
 //jquery
 import $ from 'jquery';
 
-$('body').css('background-color','#333');
+import './css/style.css';
+import './css/header.css';
+import './css/footer.css';
+
+$('body').css('background-color','#666');
 $('.box').css({
     'width':'300px',
     'height':'300px',
