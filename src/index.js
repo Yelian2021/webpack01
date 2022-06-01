@@ -9,9 +9,10 @@ console.log(matsuA(20));
 //jquery
 import $ from 'jquery';
 
-import './css/style.css';
-import './css/header.css';
-import './css/footer.css';
+import './css/style.css';  //插入style.css
+import './css/header.css';  //插入header.css
+import './css/footer.css';  //插入footer.css
+import './sass/main.scss';  //插入main.scss
 
 $('body').css('background-color','#666');
 $('.box').css({

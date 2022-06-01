@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "安裝套件":"npm i",
+    "打包":"webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
