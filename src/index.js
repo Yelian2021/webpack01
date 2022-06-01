@@ -16,4 +16,5 @@ $('.box').css({
     'background-color':'black',
     'margin' : '0 auto', 
     'transition':'.5s',
+    'color':'white',
 });
